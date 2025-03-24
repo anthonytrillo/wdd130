@@ -1,0 +1,80 @@
+body,
+html {
+  margin: 0;
+  padding: 0;
+}
+
+a {
+  text-decoration: none;
+}
+
+h1 {
+  font-family: "Rubik";
+  font-weight: 900;
+}
+
+h2 {
+  font-family: "Rubik";
+  font-weight: 700;
+  color: #1EA192;
+}
+
+P {
+  font-family: "Open Sans";
+}
+
+.hero {
+  position: relative;
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  overflow: hidden;
+}
+
+.rafting-hero {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.hero-article {
+  background: rgba(70, 69, 70, 0.8);
+  padding: 20px;
+  width: 80%;
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  position: absolute;
+  bottom: 10%;
+  color: white;
+  border-radius: 5px;
+}
+
+.hero-title {
+  position: absolute;
+  top: 10%;
+  font-size: 2.5rem;
+  color: white;
+  text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.7);
+}
+
+.rafting-employees {
+  width: 150px;
+  height: auto;
+  border-radius: 5px;
+}
+
+.facebook-icon,
+.x-icon,
+.instagram-icon {
+  width: 50px;
+  height: 50px;
+}
