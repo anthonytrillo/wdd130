@@ -23,6 +23,41 @@ P {
   font-family: "Open Sans";
 }
 
+.header-container {
+  margin: 1rem auto;
+  display: grid;
+  grid-template-columns: 120px 1fr 1fr;
+  align-items: center;
+  padding: 1rem 4rem;
+  border-bottom: 1px solid #ccc;
+  max-width: 1000px;
+}
+
+.navbar-container {
+  display: flex;
+	flex-wrap: wrap;
+	list-style: none;
+	padding: 0;
+}
+
+.navbar-container li {
+  flex: 1 1 auto;
+}
+
+.navbar-container a {
+  display: block;
+	color: #464546;
+	padding: 20px;
+	text-decoration: none;
+	font-size: 1.2rem;
+  font-family: 'Open Sans';
+}
+
+.rafting-logo {
+  width: 100px;
+  height: 100px;
+}
+
 .hero {
   position: relative;
   width: 100%;
@@ -70,6 +105,66 @@ P {
   width: 150px;
   height: auto;
   border-radius: 5px;
+}
+
+.history-section h2 {
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+}
+
+.history-content {
+  display: grid;
+  grid-template-columns: 1fr 300px 1fr;
+  justify-content: center;
+  align-items: center;
+  gap: 50px;
+  padding: 0rem 4rem;
+}
+
+.history-content img {
+  width: 300px;
+  height: 250px;
+  align-self: center;
+}
+
+.adventure-section h2 {
+  display: flex;
+  justify-content: center;
+  padding-top: 1rem;
+}
+
+.adventure-content {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+  padding: 0rem 4rem;
+}
+
+.adventure-content figcaption {
+  display: flex;
+  justify-content: center;
+}
+
+.adventure-content img {
+  width: 150px;
+  height: 150px;
+}
+
+footer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 2rem 4rem;
+}
+
+footer p {
+  flex: 1;
+  text-align: center;
+}
+
+.sociallinks {
+  display: flex;
+  gap: 10px;
 }
 
 .facebook-icon,
