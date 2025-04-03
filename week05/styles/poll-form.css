@@ -1,0 +1,106 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Rubik';
+  font-size: 1rem;
+  color: #333;
+  background: #95a5a6;
+}
+
+header {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* margin: 0 auto; */
+}
+
+h1 {
+  margin: 1rem;
+  font-size: 1em;
+  color: #2980b9;
+}
+
+#fullname, #useremail {
+  padding: 5px;
+  width: 60%;
+}
+
+#browser {
+  padding: 5px;
+}
+
+.form-container {
+  display: flex;
+  justify-content: center;
+}
+
+.poll-form {
+  width: 50%;
+  border: solid 1px #333;
+  border-radius: 10px;
+  text-align: center;
+}
+
+.form-contact {
+  margin: 1rem;
+  text-align: left;
+}
+
+.form-contact-title {
+  margin-left: 10px;
+  padding: 0px 5px;
+  color: #2980b9;
+  font-weight: 700;
+}
+
+.form-item-contact {
+  text-align: right;
+  margin: 10px;
+}
+
+.form-question {
+  margin: 1rem;
+  text-align: left;
+}
+
+.form-question-title {
+  margin-left: 10px;
+  padding: 0px 5px;
+  color: #2980b9;
+  font-weight: 700;
+}
+
+.form-item-question {
+  text-align: center;
+  margin: 20px;
+}
+
+.form-button {
+  margin-bottom: 1rem;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: #2980b9;
+  color: #fff;
+  border-color: #2980b9;
+}
+
+#feedback {
+  width: 90%;
+  padding: 0.5rem;
+  margin-top: 10px;
+  border-radius: 5px;
+}
+
+footer {
+  display: flex;
+  justify-content: center;
+  margin: 20px;
+}
+
+.copyright {
+  margin: 10px;
+}
