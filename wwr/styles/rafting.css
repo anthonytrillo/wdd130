@@ -360,7 +360,7 @@ main {
 .form-section {
   display: flex;
   gap: 60px;
-  padding-top: 50px;
+  padding-top: 20px;
 }
 
 .additional-info {
@@ -376,7 +376,7 @@ main {
   background-color: #fff;
   padding: 40px;
   border-radius: 8px;
-  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.2);
   font-family: 'Open Sans';
 }
 
