@@ -319,10 +319,14 @@ main {
 
 .map-container {
   flex: 1;
-  height: 250px;
   background-color: #eee;
   border-radius: 8px;
   position: relative;
+}
+
+.map-container iframe {
+  height: 300px;
+  width: 600px;
 }
 
 .map-marker {
