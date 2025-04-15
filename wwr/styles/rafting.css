@@ -78,7 +78,7 @@ P {
   text-decoration: none;
   font-size: 18px;
   padding: 15px 30px;
-  margin-top: 50px;
+  /* margin-top: 50px; */
   border-radius: 5px;
   font-family: "Rubik";
 }
@@ -188,7 +188,6 @@ P {
 }
 
 .newsletter button {
-  background: #003366;
   color: white;
   border: none;
   cursor: pointer;
@@ -785,22 +784,6 @@ main {
   border-radius: 4px;
   resize: vertical;
   font-size: 14px;
-}
-
-.submit-button {
-  background-color: #464546;
-  color: white;
-  border: none;
-  padding: 12px 24px;
-  border-radius: 4px;
-  cursor: pointer;
-  font-weight: bold;
-  width: 100%;
-  margin-top: 10px;
-}
-
-.submit-button:hover {
-  background-color: #464546;
 }
 
 /* Líneas decorativas */
